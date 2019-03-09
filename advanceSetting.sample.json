@@ -1,0 +1,86 @@
+// 这是一份高级配置示例文件
+// 你可以挑选其中某些设置，填写到主题后台「超高级」设置框中
+
+// 填写的内容必须符合 JSON 格式，因此你必须 去掉 以 // 打头的所有注释！！！
+
+{
+    // 自定义左上角显示的站点名
+    "name" : "A Panda.",
+
+    // 卡片化的首页，对配图要求高一些
+    "fancyIndex" : false,
+
+    // 是否显示欢迎语
+    "welcomeWord" : true,
+
+    // 自定义的欢迎语
+    "customNotice" : "欢迎来到我的博客！",
+
+    // 默认的文章封面
+    "defaultCover" : "https:\/\/api.imalan.cn\/random\/?c=unsplash&s=large&r=img",
+
+    // 提示块背景色
+    "msgBg" : "#fff",
+
+    // 提示块文字色
+    "msgColor" : "#333",
+
+    // 桌面端头图高度，数值为高度占屏幕高度的百分比
+    "desktopBannerHeight" : 30,
+
+    // 移动端头图高度，数值为高度占屏幕高度的百分比
+    "mobileBannerHeight" : 30,
+
+    // 首页不显示大图
+    "indexNoBanner" : false,
+
+    // 首页无限加载
+    "infiniteLoad" : true,
+
+    // 社交 ID，用于生成分享链接
+    "twitterId": "AlanDecode",
+    "weiboId" : "熊猫小AA",
+    "facebookId" : "熊猫小A",
+
+    // 自定义添加栏下拉列表
+    "nav" : [
+        {
+            "name" : "捉迷藏",
+            "items" : [
+                {
+                    "link" : "http:\/\/t.me\/imalanblog",
+                    "title" : "Telegram 群"
+                },
+                {
+                    "link" : "https:\/\/shang.qq.com\/wpa\/qunwpa?idkey=4ed2406c1d84b70c319c8ee79752d1704702b770aa0da405ca0f274e4d4db5f8",
+                    "title" : "QQ 群组"
+                },
+                {
+                    "link" : "https:\/\/weibo.com\/5245109677",
+                    "title" : "新浪微博"
+                }, 
+                {
+                    "link" : "https:\/\/twitter.com\/AlanDecode",
+                    "title" : "Twitter"
+                },
+                {
+                    "link" : "https:\/\/github.com\/AlanDecode",
+                    "title" : "GitHub"
+                }
+            ]
+        },
+        {
+            "name" : "秘密花园",
+            "items" : [
+                {
+                    "link" : "https:\/\/www.imalan.cn",
+                    "title" : "引导页"
+                },
+                {
+                    "link" : "https:\/\/api.imalan.cn",
+                    "title" : "熊猫 API"
+                }
+            ]
+        }
+    ]
+}
